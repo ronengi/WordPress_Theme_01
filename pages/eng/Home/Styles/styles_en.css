@@ -1,0 +1,106 @@
+.underBanerMenuInformation table tr td
+{
+    padding-left:38px;
+}
+.underBanerMenuInformation table tr th
+{
+    padding-left:38px;
+    text-align:left;
+}
+ul.menuLinks li
+{
+    padding-left:10px;
+}
+.underBanerMenuInformation table tr.referenceRow td
+{
+    padding-left:38px;
+}
+ul.footerLinks li
+{
+    text-align:left;
+}
+.footerBottomTable tr td ul li a
+{
+   padding-left: 0;
+}
+table.footerBottomTable tr th
+{
+    text-align:left; 
+    padding-right:40px;  
+    padding-left:25px;
+    padding-left:17px;  
+}
+table.footerBottomTable tr td a
+{
+    text-align:left; 
+    padding-right:40px;  
+    padding-left:25px;
+}
+.socialNetworkBtn img
+{
+    float: left;
+    padding-right: 10px;
+}
+.footerBottomTable
+{
+    text-align: left;
+    direction: ltr;
+}
+.tableBanerMenuInformation
+{
+    text-align: left;
+    direction: ltr;
+}
+#textDiv 
+{
+    text-align: left;
+    direction: ltr;
+}
+.productsTableDiv .tabling 
+{
+    direction: ltr;
+    text-align: left;
+}
+img.rightAlign 
+{
+    float: right;
+    margin-right: 0px;
+}
+#productsDiv h2 
+{
+    left: 10px;
+}
+#productsDiv .divs, #productsDiv a, #productsDiv h2
+{
+    margin-left:20px; 
+}
+#productsDiv .divs, #productsDiv a
+{
+    left: 10px;
+}
+#frameDiv #formTable td
+{
+    text-align: left;
+}
+#frameDiv #formTable
+{
+    direction: ltr;
+}
+
+.anchorMenu li
+{
+    float: left;
+}
+
+.textImage, .onlyTextStrip, .textImage h1, .onlyTextStrip h1
+{
+    text-align: left;
+}
+.buyA
+{
+    float: left;
+}
+.buyASide
+{
+    margin-left: 509px;
+}

@@ -1,0 +1,214 @@
+/********** font family "Dosis" ( http://www.impallari.com/dosis ) **********/
+@font-face {  font-family:DosisExtraLight;  src: url('../fonts/Dosis-ExtraLight.ttf')  }
+@font-face {  font-family:DosisSemiBold;    src: url('../fonts/Dosis-SemiBold.ttf')    }
+@font-face {  font-family:DosisBook;        src: url('../fonts/Dosis-Book.ttf')        }
+@font-face {  font-family:DosisBold;        src: url('../fonts/Dosis-bold.ttf')        }
+@font-face {  font-family:dosismedium;      src: url('../fonts/Dosis-Medium.ttf')      }
+
+body {  background-image:url('../images/backgrounds/ra-background.jpg');  background-position:center top;  background-repeat:no-repeat;  background-color:#EBE9EA;  border-top: 2px solid black;  margin: 0;  line-height: 1;  overflow-x:hidden !important  }
+
+  .container {  position:relative;  margin:0 auto;  clear:both;  }
+  .wide      {  width:100%;  }
+  .narrow    {  width:985px;  }
+  .mark      {  border:1px solid black;  background-color:pink;  }
+
+
+   /********** header menu **********/
+   #h0logo {  position:relative;  float:left;  top: 30px;  left: 0px;  cursor: pointer;  }
+   #h0lang {  position:relative;  float:left;  top: 53px;  left: 160px;  }
+    #h0lang select {  border: 1px solid #CCCCCC;  border-radius: 5px 5px 5px 5px;  color: #949391;  width: 135px;  padding: 5px;  }
+   #h0menu {  border: 0px solid black;  position: relative;  float: left;  top: 61px;  left: 295px;  }
+    .menu-heb_header-container {}
+     #h0menu ul {  list-style-type: none;  margin: 0px;  padding: 0px;  }
+      #h0menu ul > li {  padding: 0 15px;  float: left;  border-left: 1px solid #CCCCCC;  }
+       #h0menu ul > li:first-child {  border:none;  }
+       #h0menu ul > li > a {  font-family:DosisBook;  font-size:14px;  color:#5e5e5e;  text-decoration: none;  text-transform:uppercase;}
+       #h0menu ul > li > a:hover {  color:#c9900d;  }
+
+   #h0     {  position:relative;  margin-bottom:92px;  }
+
+
+   /********** footer top menu**********/
+   #f1menu {  position:relative;  float:left;  top:0px;  left:-25px;  }
+    .menu-footer_1-container {}
+     #f1menu ul {  list-style-type:none;  margin:0px;  padding:0px;  }
+      #f1menu ul > li {  padding:0 25px;  float:left;  border-left:1px solid #CCCCCC;  }
+       #f1menu ul > li:first-child {  border:none;  }
+       #f1menu ul > li > a {  font-family:Arial;  font-size:12px;  color:#666666;  text-decoration:none;  text-transform:lowercase;}
+        #f1menu ul > li > a:hover {  color:#c9900d;  }
+    #f1copyright {  border: 0px solid black;  position: relative;  float:left;  top:0px;  left:240px;  font-family: Arial;  font-size: 12px;  color: #666666;  }
+
+   #f1     {  position:relative;  margin-bottom:9px;  }
+
+
+   /********** footer bottom menu **********/
+   #f2wide {  border-top: 2px solid #999999;  background-color: #FFFFFF;  height:250px;  }
+    #f2box  {  background-color: #FFFFFF;  height:250px;  }
+     #f2_menu {  position: relative;  float: left;  top: 2px;  left: 0px;  }
+      .menu-heb_footer_2-container {}
+       #f2_menu > div > ul {  list-style-type:none;  margin:0px;  padding:0px;  text-align:right;  }
+        #f2_menu > div > ul > li {  padding:18px 30px 0px 0px;  float:left;  }
+         #f2_menu > div > ul > li:nth-child(1) > ul > li {  width: 235px;  }
+         #f2_menu > div > ul > li:nth-child(2) {  width: 130px;  }
+         #f2_menu > div > ul > li:nth-child(3) {  width: 125px;  }
+         #f2_menu > div > ul > li:nth-child(4) {  width: 125px;  }
+         #f2_menu > div > ul > li > a {  font-family:DosisBold;  font-size:18px;  color:#666666;  text-decoration:none;  cursor: pointer;  }
+          #f2_menu > div > ul > li > a:hover {  color:#c9900d;  }
+         #f2_menu > div > ul > li > ul {  list-style-type:none;  margin:15px 0;  padding:0px;  }   /**********ul**********/
+          #f2_menu > div > ul > li > ul > li {  padding:5px 0px 9px 0px;  border-top:1px dashed #666666;  }
+           #f2_menu > div > ul > li > ul > li:first-child {  border:none;  }
+           #f2_menu > div > ul > li > ul > li > a {  font-family:Arial;  font-size:12px;  color:#666666;  text-decoration:none;  }
+            #f2_menu > div > ul > li > ul > li > a:hover {  color:#c9900d;  }
+      #f2_contact {  position: relative;  float:left;  top:0px;  left:0px;  text-align:right;  }
+       #f2_contact_header {  color:#666666;  font-family:DosisBold;  font-size:19px;  position: relative;  top:0px;  left:0px;  }
+       #f2_contact_text_1 {  color:#666666;  font-family:DosisSemiBold;  font-size:14px;  position: relative;  top:1px;  left:0px;  }
+       #f2_contact_text_2 {  color:#666666;  font-family:DosisSemiBold;  font-size:14px;  position: relative;  top:0px;  left:0px;  }
+       #f2_contact_text_3 {  color:#666666;  font-family:DosisSemiBold;  font-size:14px;  position: relative;  top:-40px;  left:0px;  }
+       #f2_contact_tel {  color: #663366;  font-family: DosisBold;  font-size: 18px;  margin-left: 5px;  position: relative;  top:-6px;  left:-24px;  }
+
+
+   /********** middle menu **********/
+   #m0wide {  height:66px;  width:1383px;  background-image:url("../images/Backgrounds/center-menu.png");  background-repeat:no-repeat;  background-position:center top;}
+    #m0box  {  height:66px;  }
+     #m0container {  padding-top:1px;  width:1200px;  }
+      #m0box ul           {  list-style-type:none;  clear:none;  }
+       #m0box ul > li     {  position:relative;  left:-42px;  top:-7px;  float:left;  background-repeat:no-repeat;  padding-top: 15px;  padding-right: 109px;  padding-bottom: 14px;  padding-left: 74px;  }
+        #m0box ul > li > a {  font-family: dosisbook;  font-size: 20px;  color: #333333;  text-decoration: none;  cursor: pointer;  }
+        .menu-item-ra {  background-image:url('../images/menus/ra-60x50.png');  }
+	.eParliament     {  background-image:url('../images/menus/eParliament-60x50.png');  }
+	.EasyRecord      {  background-image:url('../images/menus/EasyRecord-60x50.png');  }
+	.EasyType        {  background-image:url('../images/menus/EasyType-60x50.png');  }
+	.eProtocol       {  background-image:url('../images/menus/ra-60x50.png');  }
+	.menu-item-selected {  height:84px;  background-image:url('../images/menus/ra-60x50.png'), url('../images/menus/selected-97x84.png');  }
+
+   #m0 {  margin-bottom:30px;  }
+
+
+
+   /********** middle ruler **********/
+   #ruler                {  height:84px;  width:1383px;  background-image:url("../images/backgrounds/center-menu.png");  background-repeat:no-repeat;  background-position:center top;  }
+    #ruler ul            {  list-style:none outside none;  padding:0;  left:-25px;  }
+     #ruler ul > li      {  float:left;  position:relative;  left:0px;  top:0px;  padding-right:87px;  padding-left:25px;  padding-top:10px;  }
+      #ruler ul > li > a {  position:relative;  padding-left:11px;  top:-20px;  font-family:dosisbook;  font-size:20px;  color:#333333;  text-decoration:none;  cursor:pointer;  }
+     #ruler ul > li:last-child {  padding-right:0;  }
+     #ruler ul > li.selected   {  height:84px;  background-image:url('../images/menus/selected-97x84.png');  background-position:left top;  background-repeat:no-repeat;  }
+
+   #r0 {  margin-bottom:12px;  }
+
+
+
+   /********** Illustration Grid **********/
+   .topRow>.cell1,  .topRow>.cell2 {  background-image:url('../images/Backgrounds/bottom-left.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+   .topRow>.cell3 {  background-image:url('../images/Backgrounds/bottom-left.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+
+   .midRow>.cell0 {  background-image:url('../images/Backgrounds/top-right.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+   .midRow>.cell1,  .midRow>.cell2 {  background-image:url('../images/Backgrounds/bottom-left-top-right.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+   .midRow>.cell3 {  background-image:url('../images/Backgrounds/bottom-left.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+
+   .botRow>.cell0 {  background-image:url('../images/Backgrounds/top-right.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+   .botRow>.cell1,  .botRow>.cell2 {  background-image:url('../images/Backgrounds/top-right.png');  background-position:left bottom;  background-repeat:no-repeat;  background-size:100% 100%;  }
+
+   #grid .cell {  direction:rtl;  }
+
+   #grid img     {  position:absolute;  left:20px;  top:50px;  width:130px;  height:100px;  }
+   #grid .title  {  position:absolute;  text-align:right;    top:0px;   right:55px;  color: #333333;  font-family: DosisSemibold;  font-size: 20px;    }
+   #grid .text   {  position:relative;  text-align:justify;  top:48px;  right:55px;  color: #999999;  font-family: Arial;  font-size: 12px;  width: 270px;  line-height: 20px;   }
+   #grid a       {  position:relative;  text-align:right;    top:52px;  right:55px;  color: #474747;  font-family: Arial;  font-size: 12px;  width: 270px;  line-height: 20px;  text-decoration: none;  }
+   #grid a:hover {  text-decoration:underline;  }
+
+   .topRow, .midRow, .botRow {  width:1384px;  }
+
+   .topRow > .cell {  height:265px;  }
+   .midRow > .cell {  height:265px;  }
+   .botRow > .cell {  height:70px;   }
+
+   .cell0 {  position:relative; float:left;  width:200px;  }
+   .cell1 {  position:relative; float:left;  width:492px;  }
+   .cell2 {  position:relative; float:left;  width:492px;  }
+   .cell3 {  position:relative; float:left;  width:200px;  }
+
+   #g0 {  margin-bottom:0px;  }
+
+
+
+   /********** Product Content Strips **********/
+
+   .csGallery {  height:600px;  padding-top:40px;  background-image:url("../images/backgrounds/gallery-x.png");  box-shadow: 0 0 10px grey;  }
+
+   .csTop {  direction:rtl;  text-align:left;  background:transparent;  }
+   a.aTop {  color: #FFFFFF;  font-family: dosisbold;  font-size:14px;  text-decoration:none;  }
+
+   .cStrip {  margin-top:70px;  margin-bottom:100px;  background-repeat:no-repeat;  background-position:center;  }
+   .csLeft  {  float:left;    width:48%;  background:transparent;  }
+   .csRight {  float:right;   width:48%;  background:transparent;  }
+
+   a.csAnchor {  font-family:dosismedium;  font-size:18px;  color:#3E454E;  text-decoration:none;  margin-left:30px;  }
+/* width:200px;  display:inline-block;   */
+   a.csAnchor:hover {  color:#c9900d;  }
+
+   .csTitle    {  direction:rtl;  text-align:right;  margin-bottom: 30px;  margin-top: 20px;  font-size: 32px;  color: #999999;  font-family:dosissemibold;  background:transparent;  }
+
+   .csText    {  direction:rtl;  text-align:right;  color:#666666;  font-family:Arial;  font-size:14px;  line-height: 18px;  background:transparent;  }
+
+   .csLowTitle {  margin-bottom:15px;  font-size:24px;  color:#999999;  font-family:dosissemibold;  }
+   .csLowText  {  font-size:18px;  color:#999999;  font-family:dosissemibold;  }
+
+   .csImg {  margin-left:auto;  margin-right:auto;  max-width:492px;  text-align:center;  background:transparent;  }
+
+   .csButton {  direction:rtl;  }
+   .buyButton {  height:30px;  width:85px;  margin-bottom:10px;  margin-top:15px;  background-image:url("../images/backgrounds/buy_button.png");  border:medium none;  border-radius:3px 3px 3px 3px;  color:#FFFFFF;  cursor:pointer;  font-family:dosismedium;  font-size:16px;  text-transform:lowercase;  }
+
+   #cStripBuyIt {  width:1350px;  height:744px;  text-align:center;  background-image:url("../images/backgrounds/buy-it.jpg");  }
+   #cStripBuyIt b {  position:relative;  top:260px;  left:30px;  color:#FFFFFF;  font-family:dosisbold;  font-size:60px;  }
+
+
+
+
+
+   /********** Page type 0 (About Us, Who Are We) **********/
+   #p0title1    {  position:relative;  margin:56px 0 0 0;  font-family:DosisSemiBold;  font-size:63px;  text-align:center;  }
+   #p0subTitle1 {  position:relative;  margin:33px 0 0 0;  color:#474747;  font-family:DosisExtraLight;  font-size:32px;  text-align:center;  line-height:47px;  }
+
+   #p0img1      {  position:relative;  margin:32px 0 0 0;   float:left;  }
+   #p0txt1      {  position:relative;  margin:112px 0 0 0;  float:right;  text-align:right;  color: #666666;  font-family: Arial;  font-size: 14px;  line-height: 18px;  width:450px;  }
+   #p0txt1 br   {  display: block;  margin: 7px 0;  }
+
+   #p0txt2      {  position:relative;  margin:10px 0 40px 0;  float:left;  text-align:right;  color: #666666;  font-family: Arial;  font-size: 14px;  line-height: 18px;  width:450px;  }
+   #p0img2      {  position:relative;  margin:0px 0 40px 0;  float:right;  }
+   #p0txt2 br   {  display: block;  margin: 7px 0;  }
+
+
+
+   /********** Page type 1 (Solutions, Services, Products) **********/
+   .p1img1      {  position:relative;  float:left;   top:-43px;  left:0px;  margin:0 0 28px 0;  }
+   .p1title     {  position:relative;  float:right;  top:-41px;  left:-138px;   text-align:center;  font-family:DosisSemiBold;  font-size:63px;  }
+   .p1subTitle  {  position:relative;  float:right;  top:-136px;  left:-130px;  text-align:center;  color:#474747;  font-family:DosisExtraLight;  font-size:32px;  }
+
+
+
+   /********** Page type 2 (Contact Us) **********/
+  .p2title    {  text-align:center;  margin:00px auto;                  font-family:DosisSemiBold;    font-size:63px;  }
+  .p2subTitle {  text-align:center;  margin-top:40px; margin-bottom:60px;  color:#474747;  font-family:DosisExtraLight;  font-size:32px;  }
+  .p2left     {  direction:rtl;  float:left;  margin-right:30px;  }
+  .p2right    {  direction:rtl;  float:none;  }
+  .p2centerTitle {  direction:rtl;  }
+  .p2center   {  text-align:center;  margin-top:20px;  }
+  .cLabel     {  color: #666666;  font-family: DosisSemibold;  font-size: 18px;  }
+  .cInput     {  height: 22px;   width: 450px;  margin:15px 0 40px;  padding:10px;  color: #474747;  border:1px solid #FFFFFF;  border-radius:3px 3px 3px 3px;  box-shadow:0 2px 2px #BBBBBB;  }
+  .cTextArea  {  height: 195px;  width: 950px;  margin-top: 15px;    padding:10px;  color: #474747;  resize:none;  border:1px solid #FFFFFF;  border-radius:3px 3px 3px 3px;  box-shadow:0 2px 2px #BBBBBB;  }
+  .cSubmit    {  background-image:url('../images/backgrounds/contact-send.png');  height: 49px;   width: 131px;  color: #FFFFFF;  font-family: DosisBold;  font-size: 18px;  border: 1px solid #CC9966;  border-radius:3px 3px 3px 3px;  cursor:pointer;  }
+
+  #cFooter    {  height: 30px;  margin:40px auto 0;  width: 1200px;  text-align:center;  background-image:url('../images/backgrounds/separator.png');  background-position:center top;  background-repeat:no-repeat;  }
+  #cFooter p  {  margin-top:40px;  color: #666666;  font-family: DosisBook;  font-size: 18px;  line-height: 35px;  }
+  #cFooterL   {  float:left;   text-align:right;  width: 49%;  }
+  #cFooterR   {  float:right;  text-align:left;   width: 49%;  }
+  #cMap       {  margin:0 auto 20px;  width: 970px;  top:-18px;  }
+  #googleMap  {  background-color: white;  clear: both;  height: 580px;  margin:40px 0 80px;  padding: 10px;  position: relative;  width: 970px;  }
+
+
+
+  /********** Page type 3 (Products...) **********/
+  #p3img          {  position:relative;  float:left;   top:-43px;  left:0px;  margin:0 0 -60px 0;  }
+  #p3bannerTitles {  position:relative;  float:right;  text-align:center;  width:400px;  top:-43px;  }
+  #p3title        {  position:relative;  text-align:center;  text-align:center;  font-family:DosisSemiBold;  font-size:63px;  }
+  #p3subTitle     {  position:relative;  text-align:center;  text-align:center;  color:#474747;  font-family:DosisExtraLight;  font-size:32px;  }

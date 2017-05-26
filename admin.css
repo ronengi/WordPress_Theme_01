@@ -1,0 +1,65 @@
+#_rulerMetaId div.inside div,
+#_pageMetaId  div.inside div,
+#_itemsMetaId div.inside div,
+#_homeMetaId div.inside div,
+#_productMetaId div.inside div
+{
+	height: auto !important;
+	background-color: #f1f1f1 !important;
+	width: 70% !important;
+    margin: 0 auto !important;
+}
+
+#_rulerMetaId div.inside div span, #_rulerMetaId div.inside div label,
+#_pageMetaId div.inside div span, #_pageMetaId div.inside div label,
+#_itemsMetaId div.inside div span, #_itemsMetaId div.inside div label,
+#_homeMetaId div.inside div span, #_homeMetaId div.inside div label,
+#_productMetaId div.inside div span, #_productMetaId div.inside div label
+{
+	float: none !important;
+	padding-left: 0px !important;
+	background-color: transparent !important;
+}
+
+#_rulerMetaId div.inside div label,
+#_pageMetaId div.inside div label,
+#_itemsMetaId div.inside div label,
+#_homeMetaId div.inside div label,
+#_productMetaId div.inside div label
+{
+	padding: 0px !important;
+	width: 200px !important;
+	display: inline-block !important;
+	text-align: center !important;
+	height: 40px !important;
+	margin-top: 15px !important;
+	top: 0px !important;
+}
+
+#_rulerMetaId div.inside div input[type="text"], 
+#_pageMetaId div.inside div input[type="text"],
+#_itemsMetaId div.inside div input[type="text"],
+#_homeMetaId div.inside div input[type="text"],
+#_productMetaId div.inside div input[type="text"]
+{
+	border: 1px solid #000 !important;
+	height: 40px !important;
+	width: 540px !important;
+}
+
+#_productMetaId div.inside div input[type="checkbox"]
+{
+	float: right;
+	margin-top: 15px;
+}
+
+#_rulerMetaId div.inside div textarea,
+#_pageMetaId div.inside div textarea,
+#_itemsMetaId div.inside div textarea,
+#_homeMetaId div.inside div textarea,
+#_productMetaId div.inside div textarea
+{
+	border: 1px solid #000 !important;
+	height: 100px !important;
+	width: 540px !important;
+}

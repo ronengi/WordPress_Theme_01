@@ -1,0 +1,195 @@
+@font-face{
+font-family:DosisExtraLight;
+src: url('fonts/Dosis-ExtraLight.ttf')}
+
+@font-face{
+font-family:DosisSemiBold;
+src: url('fonts/Dosis-SemiBold.ttf')}
+
+@font-face{
+font-family:DosisBook;
+src: url('fonts/Dosis-Book.ttf')}
+
+@font-face{
+font-family:DosisBold;
+src: url('fonts/Dosis-bold.ttf')}
+
+@font-face{
+font-family:dosismedium;
+src: url('fonts/Dosis-Medium.ttf')}
+
+
+body
+{
+    background-image: url('../images/about_us-background.jpg');
+    background-position: top center;
+    border-top: 2px solid black;
+    background-repeat: no-repeat;
+    background-color: #EBE9EA;
+	overflow-x:hidden !important
+
+
+}
+
+.bord {border:1px solid red}
+
+.clear {clear:both}
+
+#wrapper {
+width:985px;
+margin:0 auto;
+padding:0}
+
+#header {width:1000px;  padding-top:35px}
+
+	#header img {float:left;margin-top:-5px;}
+	
+	#header select{ box-shadow: 1px 0px 1px #ccc;
+    float: left;
+    /*height: 30px;*/
+    margin-top: 18px;
+    padding: 5px;
+    width: 135px;
+    border:1px solid #ccc;
+    border-radius:5px;
+
+	}
+	
+	#lang {margin-left:160px;margin-top:23px;color:#949391}
+* + html #lang {
+margin-top:20px}
+
+	#top-menu {float:right; margin-top:26px; margin-right:20px; list-style:none}
+* + html #top-menu {
+margin-top:23px}
+	
+		#top-menu li {
+					float:left; 
+					padding:0 15px; 
+					border-left:1px solid #ccc}
+		
+		#top-menu li:first-child {border:none}
+					
+			#top-menu li a {
+							font-family:DosisBook;
+							font-size:14px;
+							text-transform:uppercase;
+							text-decoration:none;
+							color:#5e5e5e}
+
+            * + html #top-menu li a {
+            font-size:13px}
+			
+			#top-menu li a:hover {color:#c9900d}
+
+
+#content {clear:both}
+
+
+#menu_bottom {
+padding-top:40px;
+clear:both;
+/*width:100%;*/
+height:25px;
+border-bottom:2px solid #999;
+margin-left:-50px;
+list-style:none
+}
+	#menu_bottom > div {display:block;
+	width:985px;
+	margin:0 auto;
+	padding:0;
+	height:30px;
+
+	}
+
+#bottom-menu {float:left; list-style:none}
+
+#bottom-menu li {
+float:left;
+padding:0 25px;
+border-left:1px solid #ccc}
+
+#bottom-menu li:first-child {border:none}
+
+	#bottom-menu li a {
+	font-family:Arial;
+	font-size:12px;
+	text-decoration:none;
+	color:#666;
+	text-transform:lowercase}
+	
+	#bottom-menu li a:hover {color:#c9900d}
+	
+	#menu_bottom p {float:right; font-family:Arial; font-size:12px;color:#666; /*padding-right:20px;*/ margin-right:55px;}
+
+
+
+#footer{
+clear:both;
+width:100%;
+background-color:white;
+height:250px;
+}
+
+	#footer > div {
+	display:block;
+	width:985px;
+	margin:0 auto;
+	padding:0}
+		
+		#footer > div > ul > h1 {
+						font-size:18px;
+						font-family:DosisBold; 
+						color:#666;
+						margin:20px 0 15px 0;
+                        cursor: pointer
+		}
+    #footer ul {
+    list-style:none}
+						
+		#footer > div > ul {float:left; margin-right:30px}
+			#footer > div >  ul.ser {width:130px;white-space:nowrap}
+			#footer > div >  ul.sol {width:235px;white-space:nowrap}
+			#footer > div >  ul.prod,#footer > div >  ul.WEA {width:125px;white-space:nowrap}
+			
+		  		#footer > div >  ul li {
+									background-image:url("../images/libottom.png");
+									padding:5px 0 10px 0;
+									background-repeat:repeat-x;
+									background-position:left bottom}
+									
+				#footer > div >  ul li:last-child {background-image:none}
+				
+					#footer > div >  ul li a{
+					text-decoration:none;
+					font-family:arial;
+					font-size:12px;
+					color:#666}
+					
+					#footer > div >  ul li a:hover {color:#c9900d}
+			
+		#footer > div >  div {float:left}
+			#footer > div >  div {font-family:DosisSemiBold; font-size:14px; color:#666; line-height:27px}
+			#footer > div >  div h2 {font-family:DosisBold; font-size:19px; color:#666;margin:15px 0 10px 0}
+			#footer > div >  div p {font-family:DosisSemiBold; font-size:14px; color:#666; line-height:27px}
+			#footer > div >  div b {font-family:DosisBold; font-size:18px; margin-left:5px; color:#663366}
+
+
+            /* MAKE DISPLAY NONE ONLY FOR WINDOWS 9 */
+.ArrowDown {
+    background-image: url("../images/DOWN.png");
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-left: -23px;
+    margin-top: 23px;
+    position: absolute;
+    width: 25px;
+    pointer-events:none;
+    display:none
+}
+
+* + html .ArrowDown {
+display:none}
+
+

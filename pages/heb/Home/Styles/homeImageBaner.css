@@ -1,0 +1,19 @@
+#frameDiv {    position:relative;    width: 990px;    height: 455px;    /*border:1px solid black;*/    margin: auto;  }
+#nowYouCan {    position: fixed;    top:90px;    left:292px;    border:1px solid black;     z-index:0;  }
+#frameDiv * {    /*border:1px solid black;*/     position:absolute;    opacity: 0;    filter: alpha(opacity=0);  }
+#frameDiv #mySpan1 {    text-align:center;   /* border: 1px solid black;*/    width: 500px;    min-width: 500px;    max-width: 500px;    right:-63px;    top:50px;    font-size:66px;    margin:10px;    font-family: DosisSemibold;    z-index:1;    font-weight:bold;  }
+#frameDiv #mySpan2 {    z-index:5;   /* border: 1px solid black;*/    width: 500px;    min-width: 500px;    max-width: 500px;    text-align: center;    right:-95px;    top: 130px;    font-size:32px;    color: Gray;    font-family: DosisExtraLight;  }
+#frameDiv #soccerGuy {    z-index:3;    left:43px;    top:15px;    }
+#frameDiv #underSoccer, #frameDiv #underSoccerCaption {    z-index:2;    left:-13px;    top:82px;  }
+#frameDiv #laptop {    z-index:3;    left:215px;    top:155px;  }
+#frameDiv #underlaptop, #frameDiv #underlaptopCaption {    left:150px;    top:178px;    z-index:2;  }
+#frameDiv #line {    z-index:1;    opacity: 1;    display: none;    top:190px;    left:70px;  }
+#frameDiv #eSync {    z-index:3;        left:327px;    top:280px;  }
+#frameDiv #underResult, #frameDiv #underResultCaption {    z-index:2;    right:244px;    top: 218px;  }
+#frameDiv #result {     right: 290px;     top: 200px;     z-index: 2;  }
+#frameDiv #tryIt {    z-index:2;    right:27px;    top:220px;  }
+#frameDiv #backgroundImg {    z-index:1;    right: 420px;    top: 70px;  }
+#frameDiv #foregroundImg {    z-index:2;    left: 128px;    top: 150px;  }
+#frameDiv img#underSoccer, #frameDiv img#underlaptop, #frameDiv img#underResult {    width: 259px;  }
+#frameDiv #underResultCaption,     #frameDiv #underSoccerCaption,         #frameDiv #underlaptopCaption        {            opacity: 1;        }
+#frameDiv #backgroundImg,     #frameDiv #foregroundImg,         #frameDiv #underSoccer        {            /*border: 1px solid red;*/        }

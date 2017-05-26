@@ -1,0 +1,77 @@
+.banerMenu
+{
+    background: url("../images/Baner-menu-Backgraund.png") no-repeat center bottom;
+    height:86px;
+    width:990px;
+    padding:0px;
+    margin:0 auto; 
+}
+.banerMenuInner
+{
+    height:66px;
+    margin:0;
+    padding:0;
+    vertical-align:middle;     
+}
+
+.rowMenuBaner
+{
+    vertical-align:middle;
+    line-height: 95px;
+    
+}
+
+.banerMenu table tr.rowMenuBaner td
+{
+    /*width:247px; */
+    /*padding-left:35px;
+    padding-right:35px;*/
+    margin-right:35px;
+    vertical-align:middle;
+}
+
+.banerMenu ul
+{
+    list-style-type: none;
+    padding: 0;
+    float: right;
+}
+
+.banerMenu ul li
+{
+    float:left;
+    vertical-align:middle;
+    text-align: right;
+    padding-left: 65px;
+   /* width: 150px;*/
+    background-position: left 20%;
+    background-repeat: no-repeat;
+    
+}
+
+.selectedMenuTD
+{
+    background-image: url('../images/Baner-menu-swither.png');     
+    background-repeat: no-repeat;
+    /*padding-left: 60px;*/
+    height: 86px;
+}
+
+
+.banerMenu ul li a 
+{
+    font-family:Dosis, Arial, Sans-serif;
+    font-size:20px;
+    text-decoration:none;
+    font-weight:800;
+    color:#5E5E5C; 
+    position: relative;
+    top: -13px;
+}
+
+.selectedMenuTD ul li
+{
+    padding-left: 60px;
+ /*   margin-left:10px;
+    margin-bottom: 6px;*/
+}

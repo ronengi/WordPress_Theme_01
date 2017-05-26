@@ -1,0 +1,67 @@
+/*
+Theme Name: ReactiveAlgorithms
+
+Theme URI: http://reactivealgorithms.org
+Description: The theme for Reactive Algorithms
+Author: Reactive Algorithms (Ronen Gilead-Raz)
+Author URI: http://reactivealgorithms.org
+Version: 1.0
+Tags: 
+License:
+License URI:
+General comments (optional).
+
+*/
+
+
+
+body {
+  line-height: 1;
+  margin: 0;
+  background-color: #EBE9EA;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-top: 2px solid black;
+  overflow-x:hidden !important
+}
+
+#page {
+  border: 0px solid red;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#wrapper {
+  border: 0px solid black;
+  margin: 0 auto;
+  position: relative;
+  width: 985px;
+  padding: 0;
+}
+
+#header {
+  border: 0px solid blue;
+  margin: 0 auto;
+  margin-top:35px;
+  height:70px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+
+#content {
+  border: 0px solid orange;
+  margin-top: -1px;
+  position: relative;
+  width: 100%;
+}
+
+#footer {
+  border: 0px solid green;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 330px;
+  
+}

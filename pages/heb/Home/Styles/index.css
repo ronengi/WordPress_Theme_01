@@ -1,0 +1,279 @@
+.rf {
+    background-color: red;
+}
+
+#banner {
+    clear: both;
+    width: 1250px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+    #banner div {
+        float: left;
+    }
+
+        #banner div.goleft, #banner div.goright {
+            width: 125px;
+            height: 60px;
+            margin-top: 150px;
+        }
+
+        #banner div.goright {
+            text-align: right;
+        }
+
+        #banner div.slider {
+            width: 985px;
+            height: 460px;
+        }
+
+            #banner div.slider div.image_ban {
+                height: 300px;
+                width: 500px;
+                background-image: url("../images/line_ban.png");
+                background-repeat: no-repeat;
+                background-position: center center;
+                margin-top: 150px;
+                margin-left: 45px;
+            }
+
+                #banner div.slider div.image_ban img {
+                    position: absolute;
+                    margin-top: -55px;
+                    margin-left: -55px;
+                }
+
+                    #banner div.slider div.image_ban img.police,
+                    #banner div.slider div.image_ban img.sorccer,
+                    #banner div.slider div.image_ban img.judge,
+                    #banner div.slider div.image_ban img.business {
+                        margin-top: -125px;
+                        margin-left: 0px;
+                    }
+
+                    #banner div.slider div.image_ban img.police {
+                        visibility: hidden;
+                    }
+
+                    #banner div.slider div.image_ban img.judge {
+                        visibility: hidden;
+                    }
+
+                    #banner div.slider div.image_ban img.business {
+                        visibility: visible;
+                    }
+
+                    #banner div.slider div.image_ban img.sorccer {
+                        visibility: hidden;
+                    }
+
+                    #banner div.slider div.image_ban img.item2 {
+                        position: absolute;
+                        margin-top: 40px;
+                        margin-left: 100px;
+                    }
+
+                    #banner div.slider div.image_ban img.laptop {
+                        position: absolute;
+                        margin-top: 25px;
+                        margin-left: 170px;
+                    }
+
+                    #banner div.slider div.image_ban img.eban {
+                        position: absolute;
+                        margin-top: 70px;
+                        margin-left: 260px;
+                    }
+
+
+
+
+        #banner div.right_slide h1 {
+            font-family: DosisSemibold;
+            font-size: 63px;
+            padding-top: 40px;
+        }
+
+        #banner div.right_slide h2 {
+            font-family: DosisExtraLight;
+            font-size: 32px;
+            padding-top: 10px;
+            color: #666;
+        }
+
+        #banner div.right_slide img {
+            position: absolute;
+            margin-top: 70px;
+            margin-left: -75px;
+        }
+
+            #banner div.right_slide img.pc {
+                position: absolute;
+                margin-top: 40px;
+                margin-left: -10px;
+            }
+
+            #banner div.right_slide img.try {
+                position: absolute;
+                margin-top: 40px;
+                margin-left: 200px;
+            }
+
+
+#center_menu {
+    clear: both;
+	 height: 66px;
+	  background-image: url("../images/Baner-menu-Backgraund.png");
+	  display:block;
+	  background-position:center top;
+	  background-repeat:no-repeat
+    /*width: 1256px;
+    margin: 0 auto;
+    padding: 0;
+   
+	 margin-right: 165px;
+    list-style:none;
+   */
+   
+}
+
+#content_menu_list {
+
+	width: 983px;
+	margin:0 auto;
+		 list-style:none;
+}
+
+    #content_menu_list li {
+        float: left;
+    margin-left: -30px;
+    margin-right: 125px;
+    padding-left: 10px;
+    padding-top: 10px;
+    }
+
+    * + html #content_menu_list li {
+
+         padding-top: 10px;
+        padding-left: 10px;
+        margin-right: 50px;
+    }
+        #content_menu_list li:last-child {
+            margin-right: 0px;
+        }
+
+        #content_menu_list li a {
+            text-decoration: none;
+            font-family: dosisbook;
+            font-size: 20px;
+            color: #333;
+            vertical-align: middle;
+            float: right;
+            margin-top: 15px;
+        }
+
+        #content_menu_list li img {
+            margin: 0 14px 0 14px;
+        }
+
+        * + html #content_menu_list li a {
+            text-decoration: none;
+            font-family: Arial;
+            font-size: 20px;
+            color: #333;
+            vertical-align: middle;
+            float: none;
+            margin-top: 15px;
+            display: block;
+            margin-top: -30px !important;
+            margin-left:80px;
+        }
+
+
+.top_info {
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+    height: 450px;
+}
+
+#items {
+	clear:both;
+    padding-top: 50px;
+    width: 985px;
+    margin: 0 auto;
+    color: #999;
+}
+
+    #items div {
+	direction:rtl;
+        float: left;
+        width: 247px;
+
+        margin-right:80px;
+    }
+
+        #items div + div + div {
+        margin-right:0px}
+
+        #items div.submit_form {
+            width: 285px;
+        }
+
+            #items div.submit_form input {
+                width: 280px;
+                height: 20px;
+                box-shadow: 0 2px 2px #bbb;
+                border-radius: 3px;
+                border: none;
+                padding: 5px;
+            }
+
+            #items div.submit_form button {
+                margin-top: 15px;
+                margin-right: 100px;
+                width: 85px;
+                height: 31px;
+                background-image: url("../images/upload-Button.png");
+                border: none;
+                font-family: dosisbold;
+                font-size: 16px;
+                color: white;
+            }
+
+        #items div h2 {
+            font: 24px DosisSemibold;
+            margin-bottom: 30px;
+        }
+
+        #items div p {
+	    text-align:justify;
+            font: 14px arial;
+            margin-bottom: 20px;
+        }
+
+        #items div a {
+	    text-align:center;
+            color: #666;
+            /*margin-right: 10px;*/
+            font-family: arial;
+            font-size:14px\9;
+            margin-right:-20px !important;  
+        }
+
+* + html #items DIV A {
+margin-right:-25px !important;
+}
+
+            #items div a:hover {
+                text-decoration: none;
+            }
+
+
+#menu_bottom {
+    padding-top: 100px;
+}
+
+
+
